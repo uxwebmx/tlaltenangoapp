@@ -1,0 +1,11 @@
+framework module flutter_radio_player {
+  umbrella header "flutter_radio_player-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_radio_player.Swift {
+    header "flutter_radio_player-Swift.h"
+    requires objc
+}
